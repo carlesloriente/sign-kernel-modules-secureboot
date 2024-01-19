@@ -1,0 +1,35 @@
+# Vagrant
+**/.vagrant/*
+
+# Binaries
+submodules/*
+venv/*
+
+#editor settings
+.vscode
+tsconfig.json
+
+# Temporary files
+*.tar.gz
+*.zip
+*.box
+*~
+.idea/
+.project
+.settings/org.eclipse.core.resources.prefs
+*.sublime-project
+*.sublime-workspace
+*.meta
+*.lock
+*.DS_Store
+*.swp
+temp/*
+
+# Jekyll build
+_site/*
+
+# Exception
+!**/.gitkeep
+
+
+node_modules

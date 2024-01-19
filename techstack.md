@@ -1,7 +1,7 @@
 <!--
 &lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
-carlesloriente/sign-kernel-modules-secureboot-virtualbox is built on the following main stack:
+carlesloriente/sign-kernel-modules-secureboot is built on the following main stack:
 
 
 
@@ -11,7 +11,7 @@ Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
-carlesloriente/sign-kernel-modules-secureboot-virtualbox is built on the following main stack:
+carlesloriente/sign-kernel-modules-secureboot is built on the following main stack:
 
 
 
@@ -22,7 +22,7 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
-![](https://img.stackshare.io/repo.svg "repo") [carlesloriente/sign-kernel-modules-secureboot-virtualbox](https://github.com/carlesloriente/sign-kernel-modules-secureboot-virtualbox)![](https://img.stackshare.io/public_badge.svg "public")
+![](https://img.stackshare.io/repo.svg "repo") [carlesloriente/sign-kernel-modules-secureboot](https://github.com/carlesloriente/sign-kernel-modules-secureboot)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |1<br/>Tools used|01/19/24 <br/>Report generated|
 |------|------|

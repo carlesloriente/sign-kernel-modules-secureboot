@@ -1,4 +1,4 @@
-repo_name: carlesloriente/sign-kernel-modules-secureboot-virtualbox
+repo_name: carlesloriente/sign-kernel-modules-secureboot
 report_id: a81dfb0d25561ca596899533b2356429
 version: 0.1
 repo_type: Public
@@ -16,5 +16,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
-  detection_source_url: https://github.com/carlesloriente/sign-kernel-modules-secureboot-virtualbox
+  detection_source_url: https://github.com/carlesloriente/sign-kernel-modules-secureboot
   detection_source: Repo Metadata

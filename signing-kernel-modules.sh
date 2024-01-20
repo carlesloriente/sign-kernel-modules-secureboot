@@ -1,5 +1,18 @@
 #!/bin/bash
 
+##########################################################################
+#                                                                        #
+#                 Sign Kernel modules for SecureBoot                     #
+#                                                                        #
+#    A fully automated script for Fedora/Centos/Rocky/Red-Hat            #
+#                                                                        #
+#    Author: Carles Loriente                                             #
+#    License: MIT                                                        #
+#                                                                        #
+#    https://github.com/carlesloriente/sign-kernel-modules-secureboot    #
+#                                                                        #
+##########################################################################
+
 ## Enable extended globbing for the +(...) pattern
 shopt -s extglob
 clear

@@ -1,3 +1,13 @@
+## 🎉 Was this repo helpful? Help me raise these numbers.
+
+[![CarlesLoriente - carlesloriente.github.io](https://img.shields.io/static/v1?label=carlesloriente&message=carlesloriente.github.io&color=blue&logo=github)](https://github.com/carlesloriente/carlesloriente.github.io)
+[![GitHub's followers](https://img.shields.io/github/followers/carlesloriente.svg?style=social)](https://github.com/carlesloriente)
+[![GitHub stars](https://img.shields.io/github/stars/carlesloriente/carlesloriente.github.io?style=social)](https://github.com/carlesloriente/carlesloriente.github.io/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/carlesloriente/carlesloriente.github.io?style=social)](https://github.com/carlesloriente/carlesloriente.github.io/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/carlesloriente/carlesloriente.github.io?style=social)](https://github.com/carlesloriente/carlesloriente.github.io/network/members)
+
+Enjoy! 😃
+
 # Sign Kernel Modules script for Secure Boot
 
 ## What

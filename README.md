@@ -1,4 +1,4 @@
-# Install the automatically Sign Kernel Modules script for Secure Boot
+# Sign Kernel Modules script for Secure Boot
 
 ## What
 

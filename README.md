@@ -2,7 +2,7 @@
 
 [![CarlesLoriente - sign-kernel-modules-secureboot](https://img.shields.io/static/v1?label=carlesloriente&message=sign-kernel-modules-secureboot&color=blue&logo=github)](https://github.com/carlesloriente/sign-kernel-modules-secureboot)
 [![GitHub's followers](https://img.shields.io/github/followers/carlesloriente.svg?style=social)](https://github.com/carlesloriente)
-[![GitHub stars](https://img.shields.io/github/stars/sign-kernel-modules-secureboot?style=social)](https://github.com/carlesloriente/sign-kernel-modules-secureboot/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/carlesloriente/sign-kernel-modules-secureboot?style=social)](https://github.com/carlesloriente/sign-kernel-modules-secureboot/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/carlesloriente/sign-kernel-modules-secureboot?style=social)](https://github.com/carlesloriente/sign-kernel-modules-secureboot/watchers)
 [![GitHub forks](https://img.shields.io/github/forks/carlesloriente/sign-kernel-modules-secureboot?style=social)](https://github.com/carlesloriente/sign-kernel-modules-secureboot/network/embers)
 

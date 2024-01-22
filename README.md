@@ -1,10 +1,10 @@
 ## 🎉 Was this repo helpful? Help me raise these numbers.
 
-[![CarlesLoriente - carlesloriente.github.io](https://img.shields.io/static/v1?label=carlesloriente&message=carlesloriente.github.io&color=blue&logo=github)](https://github.com/carlesloriente/carlesloriente.github.io)
+[![CarlesLoriente - sign-kernel-modules-secureboot](https://img.shields.io/static/v1?label=carlesloriente&message=sign-kernel-modules-secureboot&color=blue&logo=github)](https://github.com/carlesloriente/sign-kernel-modules-secureboot)
 [![GitHub's followers](https://img.shields.io/github/followers/carlesloriente.svg?style=social)](https://github.com/carlesloriente)
-[![GitHub stars](https://img.shields.io/github/stars/carlesloriente/carlesloriente.github.io?style=social)](https://github.com/carlesloriente/carlesloriente.github.io/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/carlesloriente/carlesloriente.github.io?style=social)](https://github.com/carlesloriente/carlesloriente.github.io/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/carlesloriente/carlesloriente.github.io?style=social)](https://github.com/carlesloriente/carlesloriente.github.io/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/sign-kernel-modules-secureboot?style=social)](https://github.com/carlesloriente/sign-kernel-modules-secureboot/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/carlesloriente/sign-kernel-modules-secureboot?style=social)](https://github.com/carlesloriente/sign-kernel-modules-secureboot/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/carlesloriente/sign-kernel-modules-secureboot?style=social)](https://github.com/carlesloriente/sign-kernel-modules-secureboot/network/embers)
 
 Enjoy! 😃
 
@@ -20,7 +20,7 @@ This is an automated script for signing kernel modules with Secure Boot. It also
 
 ## How
 
-Since this is a simple shell script, you can hot-link it (see Usage below) in one of your scripts.
+Since this is a simple shell script, you can hot-link it in one of your scripts (see " Usage " below).
 
 # Usage
 

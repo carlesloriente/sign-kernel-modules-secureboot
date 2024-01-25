@@ -18,6 +18,7 @@ shopt -s extglob
 clear
 
 SCRIPT_VER="v0.1"
+DEPENDENCIES=(kernel-devel kernel-headers dkms qt5-qtx11extras elfutils-libelf-devel zlib-devel mokutil openssl kernel-devel-$(uname -r) curl jq tput sed egrep sed awk gnome-shell cut basename)
 MOKUTIL="/usr/bin/mokutil"
 MODPROBE="/sbin/modprobe"
 MODINFO="/sbin/modinfo"
@@ -94,6 +95,19 @@ start_env() {
 }
 
 
+test_dependencies() {
+
+    DEPENDENCIES=("$@")
+    for name in "${DEPENDENCIES[@]}"; do
+        command -v "$name" >/dev/null 2>&1 || {
+            echo "Command not found: ${name}"
+            echo "Installing ${name}"
+            dnf install -y $name
+        }
+    done
+}
+
+
 test_bin() {
 
     echo "Checking VirtualBox installation: "
@@ -160,7 +174,6 @@ EOF
 install_vbox() {
 
     echo "Installing virtualbox"
-    dnf install -y kernel-devel kernel-headers dkms qt5-qtx11extras elfutils-libelf-devel zlib-devel mokutil openssl kernel-devel-$(uname -r)
     wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo -P /etc/yum.repos.d/
     dnf install -y VirtualBox-7.0
     systemctl enable vboxdrv --now
@@ -194,6 +207,7 @@ signing_modules() {
 
 show_msg;
 start_env;
+test_dependencies "${DEPENDENCIES[@]}"
 test_bin;
 test_sign_script;
 test_systemd_script;

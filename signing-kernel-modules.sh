@@ -194,7 +194,9 @@ install_vbox() {
 
 
 signing_modules() {
-
+    clear
+    echo "Let's create the signing certificates"
+    read -p "Press any key to continue..."
     openssl req -nodes -new -x509 -newkey rsa:2048 -outform DER -addext "extendedKeyUsage=codeSigning" -keyout $PRIV_KEY -out $PUB_KEY
     mokutil --import $PUB_KEY
     cd $SIGN_DIR
@@ -207,7 +209,7 @@ signing_modules() {
 
 show_msg;
 start_env;
-test_dependencies "${DEPENDENCIES[@]}"
+test_dependencies "${DEPENDENCIES[@]}";
 test_bin;
 test_sign_script;
 test_systemd_script;

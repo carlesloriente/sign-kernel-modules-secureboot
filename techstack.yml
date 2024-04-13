@@ -1,12 +1,12 @@
 repo_name: carlesloriente/sign-kernel-modules-secureboot
-report_id: a81dfb0d25561ca596899533b2356429
+report_id: 92b5e517d1d7a1221010d0e49a1e0fb6
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-19T17:48:02+00:00'
+timestamp: '2024-04-13T13:56:10+00:00'
 requested_by: carlesloriente
 provider: github
 branch: main
-detected_tools_count: 1
+detected_tools_count: 2
 tools:
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -16,5 +16,16 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/carlesloriente/sign-kernel-modules-secureboot
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
   detection_source_url: https://github.com/carlesloriente/sign-kernel-modules-secureboot
   detection_source: Repo Metadata
